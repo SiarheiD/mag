@@ -1,0 +1,159 @@
+/*
+
+one-page mode: from aspect ratio 375/667  to  750/667
+
+double-age mode: from aspect-ratio  750/667 to ...
+
+*/
+
+@media only screen and (min-aspect-ratio: 375/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 750/667) {
+
+
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 425/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 850/667) {
+
+
+	.page-2 {
+
+		.img-container {
+
+			img {
+				width: 115%;
+			}
+		}
+
+	}
+
+	.page-4 {
+		.img-container {
+			img {
+				margin-top: -6vh;
+			}
+		}
+	}
+
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 475/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 950/667)  {
+
+	.page-1 {
+		.hgroup-1 {
+			font-size: 2vh;
+		}
+	}
+
+	.page-2 {
+		.img-container {
+			img {
+				width: 105%;
+			}
+		}
+	}
+
+	.page-4 {
+		.img-container {
+			img {
+				margin-top: -8vh;
+			}
+		}
+	}
+}
+
+@media only screen and (min-aspect-ratio: 525/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1050/667) {
+
+	.page-1 {
+		.hgroup-1 {
+			// font-size: 2.2vh;
+			position: relative;
+			top: -3.4vh;
+		}
+	}
+
+	.page-2 {
+		.img-container {
+			img {
+				width: 100%;
+				margin-top: -3vh;
+			}
+		}
+
+	}
+
+	.page-4 {
+		.img-container {
+			img {
+				margin-top: -10vh;
+			}
+		}
+	}
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 575/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1150/667) {
+
+
+	.page-1 {
+		.hgroup-1 {
+			// font-size: 2.0vh;
+		}
+	}
+
+
+	.page-4 {
+		.img-container {
+			img {
+				margin-top: -12.5vh;
+			}
+		}
+	}
+
+	.page-6 {
+		.img-container {
+			img {
+				width: 100%;
+				margin-top: -8.8vh;
+			}
+		}
+	}
+
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 625/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1250/667) {
+
+	.page-4 {
+		.img-container {
+			img {
+				width: 100%;
+				margin-top: -13.5vh;
+			}
+		}
+	}
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 675/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1350/667) {
+
+
+
+}

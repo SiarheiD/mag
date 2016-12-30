@@ -1,0 +1,168 @@
+/*
+
+one-page mode: from aspect ratio 375/667  to  750/667
+
+double-age mode: from aspect-ratio  750/667 to ...
+
+*/
+
+@media only screen and (min-aspect-ratio: 375/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 750/667) {
+
+
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 425/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 850/667) {
+
+
+	.page-2 {
+
+		.img-container {
+			img {
+				top: -8vh;
+			}
+		}
+	}
+
+	.page-6 {
+		.full-text {
+			// width: 68vh;
+		}
+		.img-container {
+			max-height: 28vh;
+		}
+	}
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 475/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 950/667)  {
+
+	.page-1 {
+		.hgroup-1 {
+			font-size: 2vh;
+		}
+	}
+
+	.page-2 {
+
+		.img-container {
+			img {
+				width: 130%;
+				top: 0;
+				margin-left: -4.9vh;
+			}
+		}
+	}
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 525/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1050/667) {
+
+	.page-1 {
+		.hgroup-1 {
+			font-size: 2.2vh;
+		}
+	}
+
+	.page-2 {
+
+		.img-container {
+			img {
+				top: -6vh;
+			}
+		}
+	}
+
+
+	.page-6 {
+		.img-container {
+			img {
+				top: -9.5vh;
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+
+@media only screen and (min-aspect-ratio: 575/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1150/667) {
+
+
+	.page-1 {
+		.hgroup-1 {
+			font-size: 2.4vh;
+		}
+	}
+
+	.page-2 {
+
+		.img-container {
+			img {
+				top: -7vh;
+			}
+		}
+	}
+
+	.page-6 {
+		.img-container {
+			img {
+				top: -10.5vh;
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 625/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1250/667) {
+
+
+	.page-2 {
+
+		.img-container {
+			img {
+				top: -8.4vh;
+			}
+		}
+	}
+
+	.page-6 {
+		.img-container {
+			img {
+				top: -12.5vh;
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+
+@media only screen and (min-aspect-ratio: 675/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1350/667) {
+
+	.page-2 {
+
+		.img-container {
+			img {
+				top: -10vh;
+			}
+		}
+	}
+
+}

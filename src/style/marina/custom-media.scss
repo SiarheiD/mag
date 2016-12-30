@@ -1,0 +1,169 @@
+/*
+
+one-page mode: from aspect ratio 375/667  to  750/667
+
+double-age mode: from aspect-ratio  750/667 to ...
+
+*/
+
+@media only screen and (min-aspect-ratio: 375/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 750/667)  {
+
+
+
+}
+
+@media only screen and (min-aspect-ratio: 400/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 850/667) {
+
+	.page-2 {
+
+		.img-container {
+			max-height: 45vh;
+
+			img {
+				max-width: 70vh;
+			}
+		}
+	}
+}
+@media only screen and (min-aspect-ratio: 425/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 850/667) {
+
+	.page-2 {
+
+		.img-container {
+			max-height: 48vh;
+			img {
+				max-width: 75vh;
+			}
+		}
+		.full-text {
+			padding-bottom: 4.8vh;
+		}
+	}
+
+}
+
+
+@media only screen and (min-aspect-ratio: 475/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 950/667)  {
+
+	.page-2 {
+
+		.img-container {
+
+			img {
+				max-width: none;
+			}
+		}
+	}
+
+
+	.page-3 {
+		.img-container {
+			position: relative;
+			height: 48vh;
+			overflow: hidden;
+
+			img {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-56%);
+				margin: 0;
+			}
+		}
+	}
+
+
+
+	.page-6 {
+		.img-container {
+			img {
+				margin-top: -3vh;
+			}
+		}
+	}
+
+	.page-7 {
+		.text {
+			font-size: 2.4vh;
+		}
+	}
+}
+
+		@media only screen and (min-aspect-ratio: 500/667) and (max-aspect-ratio: 750/667),
+		only screen and (min-aspect-ratio: 950/667)  {
+
+
+
+		}
+
+
+@media only screen and (min-aspect-ratio: 525/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1050/667) {
+
+
+
+	.page-5 {
+		background-position: 50% 95%;
+	}
+
+	.page-6 {
+		.img-container {
+			img {
+				margin-top: -5vh;
+			}
+		}
+	}
+}
+
+		@media only screen and (min-aspect-ratio: 550/667) and (max-aspect-ratio: 750/667),
+		only screen and (min-aspect-ratio: 950/667)  {
+
+			.page-6 {
+				.img-container {
+					img {
+						margin-top: -6.5vh;
+					}
+				}
+			}
+
+		}
+// landscape mode (593/667 each page):
+@media only screen and (min-aspect-ratio: 575/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1150/667) {
+	.page-5 {
+		background-position: 50% 97%;
+	}
+
+	.page-7 {
+		.text {
+			right: 5%;
+		}
+	}
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 625/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1250/667) {
+
+	.page-5 {
+		background-position: 50% 80%;
+	}
+
+
+}
+
+
+
+@media only screen and (min-aspect-ratio: 675/667) and (max-aspect-ratio: 750/667),
+only screen and (min-aspect-ratio: 1350/667) {
+
+	.page-5 {
+		background-position: 50% 60%;
+	}
+
+}
