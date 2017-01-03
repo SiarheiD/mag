@@ -21,16 +21,24 @@ only screen and (min-aspect-ratio: 850/667) {
 		background-position: 40% 50%;
 	}
 
-	.page-12 {
+	.page-10 {
 		.img-container {
-			height: 45vh;
 			img {
-				position: absolute;
-				top: 50%;
-				transform: translate(-50%, -50%);
+				width: 100%;
 			}
 		}
 	}
+
+	// .page-12 {
+	// 	.img-container {
+	// 		height: 45vh;
+	// 		img {
+	// 			position: absolute;
+	// 			top: 50%;
+	// 			transform: translate(-50%, -50%);
+	// 		}
+	// 	}
+	// }
 }
 
 
